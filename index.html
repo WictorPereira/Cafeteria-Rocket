@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
     <title>RocketCoffee</title>
-</head>
-<body>
     
+</head>
+<body>  
     <div class="global-container">  
-    <header class="header">      
+    <header class="header">  
+        <!--mobile-->
+        <div class="div-hamburger-menu">
+            <img class="img-logo-mobile" src="assets/logo-mobile.svg">
+            <img class="hamburger-menu" src="assets/menu-buguer-open.svg">
+        </div>    
+        <!--mobile-->
         <img class="img-logo-desktop" src="assets/logo-desktop.svg" alt="logo da cafeteria">         
             <ul class="ul-header">
                 <li>Home</li>
@@ -22,13 +29,22 @@
     </header>        
     </div>
 
+    <!--mobile-->
+    <div class="main-mobile">
+        <h1>O café que fará seu código decolar para o próximo nível.</h1>
+        <button class="btn-my-coffee">PEGAR MEU CAFÉ</button>     
+    </div>
+    <!--mobile-->
     <main class="main-content">
     <h1>Great Coffee</h1>
-    <img  class="h1-custom" src="assets/h1-persom.png" alt="">
+    <img  class="h1-custom" src="assets/h1-persom.png">
     </main>
+
+
     <aside class="img-container">
-        <img class="img-coffee" src="assets/rocket-coffee.png" alt="">
+        <img class="img-coffee" src="assets/Img Coffee.png" alt="imagem de um café">
     </aside>
-    
+
+    <script src="script.js"></script>
 </body>
 </html>

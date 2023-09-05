@@ -14,17 +14,18 @@
     --border: #29292E;
     --border-menu-mobile: #A8A8B3;
     --text-color-menu-mobile: #E1E1E6;
-    --img-blur-left: url(assets/blur-1.png) 
-    --img-blur-right: url(assets/blur-2.png)
   }
 
-body{
+html,body{
     background:var(--backgrond);
     color: var(--text-color);
     position: relative;
     background-image: url(assets/blur-2.png), url(assets/blur-1.png) ;
     background-repeat:no-repeat, no-repeat ;
     background-position: top right, bottom left;
+    height: 100%;
+    overflow: hidden;
+    
 }
 
 
@@ -41,14 +42,19 @@ body{
     margin-left: 150px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center;   
 }
+
 
 .ul-header{
     display: flex;
     gap: 35px;
     list-style: none;
+    cursor: pointer;
+}
+
+li:hover{
+color: var(--button);
 }
 
 .btn-my-coffee{
@@ -58,7 +64,16 @@ body{
     color: var(--text-color);
     padding: 11px 38px;
     font-weight: bolder;
+    width: 172px;
     border-radius: 6px;
+    transition: background-color 0.5s ease, border-color 0.9s ease;
+}
+
+.btn-my-coffee:hover{
+    animation: pulse-border 1s infinite alternate;
+    background-color: #8257E5;
+    border: 1px solid #FFF;
+    transition: background-color 1s ease, border-color 1s ease;
 }
 
 /*MAIN*/
@@ -68,7 +83,7 @@ body{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 60px;
     font-size: 38px;
     font-weight: bold;
 }
@@ -81,5 +96,21 @@ body{
 .img-container{
     display: flex;
     justify-content: center;
+    margin-top: 84px;
+}
+
+.img-coffee{
+    width: 798.78px;
+    height: 519px;
+}
+
+/*mobile class*/
+
+.div-hamburger-menu{
+    display: none;
+}
+
+.main-mobile{
+    display: none;
 }
 
