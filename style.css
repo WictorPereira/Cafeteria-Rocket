@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+
+*{
+    font-family: 'Manrope',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --backgrond: #000;
+    --text-color: #FFF;
+    --button: #8257E5;
+    --border: #29292E;
+    --border-menu-mobile: #A8A8B3;
+    --text-color-menu-mobile: #E1E1E6;
+    --img-blur-left: url(assets/blur-1.png) 
+    --img-blur-right: url(assets/blur-2.png)
+  }
+
+body{
+    background:var(--backgrond);
+    color: var(--text-color);
+    position: relative;
+    background-image: url(assets/blur-2.png), url(assets/blur-1.png) ;
+    background-repeat:no-repeat, no-repeat ;
+    background-position: top right, bottom left;
+}
+
+
+/*HEADER*/
+.global-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.header{
+    width: 918px;
+    height: 50px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.ul-header{
+    display: flex;
+    gap: 35px;
+    list-style: none;
+}
+
+.btn-my-coffee{
+    background-color: transparent;
+    border: 1px solid var(--button);
+    font-size: 11px;
+    color: var(--text-color);
+    padding: 11px 38px;
+    font-weight: bolder;
+    border-radius: 6px;
+}
+
+/*MAIN*/
+
+.main-content{   
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    font-size: 38px;
+    font-weight: bold;
+}
+.h1-custom{
+    margin-top: 5px;
+      
+}
+
+/*PHOTO COFFEE*/
+.img-container{
+    display: flex;
+    justify-content: center;
+}
+
