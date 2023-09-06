@@ -24,4 +24,4 @@ Neste desafio, foi necessário construir uma homepage para uma marca de café. O
 
 O projeto foi desenvolvido atendendo a esses requisitos e está pronto para uso. Todos os recursos necessários, como arquivos HTML, CSS e JavaScript, foram implementados de acordo com as especificações do desafio.
 
-Para visualizar o projeto:
+Para visualizar o projeto: https://wictorpereira.github.io/Cafeteria-Rocket/
