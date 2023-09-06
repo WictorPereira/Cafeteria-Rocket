@@ -118,7 +118,7 @@
 
     .ul-mobile li{
         border-bottom: solid 1px #a8a8b354;
-        padding-top:15px ;
+        padding-top:25px ;
         padding-bottom: 15px;
         padding-left: 30px;
         font-weight: 200;
@@ -128,5 +128,9 @@
         border-left: 5px solid #8257E5;
         color: white;
         font-weight: 800;
+        border-top: solid 1px #a8a8b354;
+    }
+    #selecionado:hover{
+        color: var(--button);
     }
 }    
