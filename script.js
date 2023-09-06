@@ -26,13 +26,17 @@ function adicionarTexto() {
 }
 
 var btnHamburger = document.getElementById("burguer-menu")
+var menuHamburger = document.getElementById("menu-mobile")
 var isMenuOpen = false;
 
 btnHamburger.addEventListener('click', function() {
     if (isMenuOpen) {
         btnHamburger.src = "assets/menu-buguer-open.svg";
+        menuHamburger.style.display="none"
+        
     } else {
         btnHamburger.src = "assets/menu-buguer-close.svg";
+        menuHamburger.style.display="block"
     }
     isMenuOpen = !isMenuOpen;
 

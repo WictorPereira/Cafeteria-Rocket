@@ -135,6 +135,6 @@ color: var(--button);
     display: none;
 }
 
-.menu-mobile{
+#menu-mobile{
     display: none;
 }
